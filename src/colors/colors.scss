@@ -1,0 +1,15 @@
+@use 'colors.variables' as c;
+
+@each $color-shade, $shade in c.$colors {
+  @each $color, $value in $shade {
+    .bg-#{$color} {
+      background-color: $value;
+    }
+
+    .fg-#{$color} {
+      color: $value;
+    }
+  }
+}
+
+

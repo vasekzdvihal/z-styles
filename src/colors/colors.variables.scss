@@ -1,0 +1,677 @@
+// Black
+// https://htmlcolorcodes.com/colors/shades-of-black/
+$black: #000000;
+$charcoal: #36454F;
+$dark-green: #023020;
+$deep-purple: #301934;
+$jet-black: #343434;
+$licorice: #1B1212;
+$matte-black: #28282B;
+$midnight-blue: #191970;
+$onyx: #353935;
+
+$blacks: (
+  'black': $black,
+  'charcoal': $charcoal,
+  'dark-green': $dark-green,
+  'deep-purple': $deep-purple,
+  'jet-black': $jet-black,
+  'licorice': $licorice,
+  'matte-black': $matte-black,
+  'midnight-blue': $midnight-blue,
+  'onyx': $onyx,
+);
+
+// Blue
+// https://htmlcolorcodes.com/colors/shades-of-blue/
+$aqua: #00FFFF;
+$azure: #F0FFFF;
+$baby-blue: #89CFF0;
+$blue: 	#0000FF;
+$blue-grey: #7393B3;
+$blue-green: #088F8F;
+$bright-blue: #0096FF;
+$cade-blue: #5F9EA0;
+$cobalt-blue: #0047AB;
+$cornflower-blue: #6495ED;
+$cyan: #00FFFF;
+$dark-blue: #00008B;
+$denim: #6F8FAF;
+$egyptian-blue: #1434A4;
+$electric-blue: #7DF9FF;
+$glaucous: #6082B6;
+$jade: #00A36C;
+$indigo: #3F00FF;
+$iris: #5D3FD3;
+$light-blue: #ADD8E6;
+$midnight-blue: #191970;
+$navy-blue: #000080;
+$neon-blue: #1F51FF;
+$pastel-blue: #A7C7E7;
+$perinwinke: #CCCCFF;
+$powder-blue: #B6D0E2;
+$robin-egg-blue: #96DED1;
+$royal-blue: #4169E1;
+$sapphire-blue: #0F52BA;
+$sea-foam-green: #9FE2BF;
+$sky-blue: #87CEEB;
+$steel-blue: #4682B4;
+$teal: #008080;
+$turqoise: #40E0D0;
+$ultramarine: #0437F2;
+$verdigis: #40B5AD;
+$zaffre: #0818A8;
+
+$blues: (
+  'aqua': $aqua,
+  'azure': $azure,
+  'baby-blue': $baby-blue,
+  'blue': $blue,
+  'blue-grey': $blue-grey,
+  'blue-green': $blue-green,
+  'bright-blue': $bright-blue,
+  'cade-blue': $cade-blue,
+  'cobalt-blue': $cobalt-blue,
+  'cornflower-blue': $cornflower-blue,
+  'cyan': $cyan,
+  'dark-blue': $dark-blue,
+  'denim': $denim,
+  'egyptian-blue': $egyptian-blue,
+  'electric-blue': $electric-blue,
+  'glaucous': $glaucous,
+  'jade': $jade,
+  'indigo': $indigo,
+  'iris': $iris,
+  'light-blue': $light-blue,
+  'midnight-blue': $midnight-blue,
+  'navy-blue': $navy-blue,
+  'neon-blue': $neon-blue,
+  'pastel-blue': $pastel-blue,
+  'perinwinke': $perinwinke,
+  'powder-blue': $powder-blue,
+  'robin-egg-blue': $robin-egg-blue,
+  'royal-blue': $royal-blue,
+  'sapphire-blue': $sapphire-blue,
+  'sea-foam-green': $sea-foam-green,
+  'sky-blue': $sky-blue,
+  'steel-blue': $steel-blue,
+  'teal': $teal,
+  'turqoise': $turqoise,
+  'ultramarine': $ultramarine,
+  'verdigis': $verdigis,
+  'zaffre': $zaffre,
+);
+
+// Browns
+// https://htmlcolorcodes.com/colors/shades-of-brown/
+$almond: #EADDCA;
+$brass: #E1C16E;
+$bronze: #CD7F32;
+$brown: #A52A2A;
+$buff: #DAA06D;
+$burgundy: #800020;
+$burnt-sienna: #E97451;
+$burnt-umber: #6E260E;
+$camel: #C19A6B;
+$chestnut: #954535;
+$chocolate: #7B3F00;
+$cinnamon: #D27D2D;
+$coffee: #6F4E37;
+$cognac: #834333;
+$copper: #B87333;
+$cordovan: #814141;
+$dark-brown: #5C4033;
+$dark-red: #8B0000;
+$dark-tan: #988558;
+$ecru: #C2B280;
+$fallow: #C19A6B;
+$fawn: #E5AA70;
+$garnet: #9A2A2A;
+$golden-brown: #966919;
+$khaki: #F0E68C;
+$light-brown: #C4A484;
+$mahogany: #C04000;
+$maroon: #800000;
+$mocha: #967969;
+$nude: #F2D2BD;
+$ochre: #CC7722;
+$olive-green: #808000;
+$oxblood: #4A0404;
+$puce: #A95C68;
+$red-brown: #A52A2A;
+$red-ochre: #913831;
+$russet: #80461B;
+$saddle-brown: #8B4513;
+$sand: #C2B280;
+$sienna: #A0522D;
+$tan: #D2B48C;
+$taupe: #483C32;
+$tuscan-red: #7C3030;
+$wheat: #F5DEB3;
+$wine: #722F37;
+
+$browns: (
+  'almond': $almond,
+  'brass': $brass,
+  'bronze': $bronze,
+  'brown': $brown,
+  'buff': $buff,
+  'burgundy': $burgundy,
+  'burnt-sienna': $burnt-sienna,
+  'burnt-umber': $burnt-umber,
+  'camel': $camel,
+  'chestnut': $chestnut,
+  'chocolate': $chocolate,
+  'cinnamon': $cinnamon,
+  'coffee': $coffee,
+  'cognac': $cognac,
+  'copper': $copper,
+  'cordovan': $cordovan,
+  'dark-brown': $dark-brown,
+  'dark-red': $dark-red,
+  'dark-tan': $dark-tan,
+  'ecru': $ecru,
+  'fallow': $fallow,
+  'fawn': $fawn,
+  'garnet': $garnet,
+  'golden-brown': $golden-brown,
+  'khaki': $khaki,
+  'light-brown': $light-brown,
+  'mahogany': $mahogany,
+  'maroon': $maroon,
+  'mocha': $mocha,
+  'nude': $nude,
+  'ochre': $ochre,
+  'olive-green': $olive-green,
+  'oxblood': $oxblood,
+  'puce': $puce,
+  'red-brown': $red-brown,
+  'red-ochre': $red-ochre,
+  'russet': $russet,
+  'saddle-brown': $saddle-brown,
+  'sand': $sand,
+  'sienna': $sienna,
+  'tan': $tan,
+  'taupe': $taupe,
+  'tuscan-red': $tuscan-red,
+  'wheat': $wheat,
+  'wine': $wine,
+);
+
+// Grays
+// https://htmlcolorcodes.com/colors/shades-of-gray/
+$ash-gray: #B2BEB5;
+$blue-gray: #7393B3;
+$charcoal: #36454F;
+$dark-gray: #A9A9A9;
+$glaucous: #6082B6;
+$gray: #808080;
+$gunmetal-gray: #818589;
+$light-gray: #D3D3D3;
+$pewter: #899499;
+$platinum: #E5E4E2;
+$sage-green: #8A9A5B;
+$silver: #C0C0C0;
+$slate-gray: #708090;
+$smoke: #848884;
+$steel-gray: #71797E;
+
+$grays: (
+  'ash-gray': $ash-gray,
+  'blue-gray': $blue-gray,
+  'charcoal': $charcoal,
+  'dark-gray': $dark-gray,
+  'glaucous': $glaucous,
+  'gray': $gray,
+  'gunmetal-gray': $gunmetal-gray,
+  'light-gray': $light-gray,
+  'pewter': $pewter,
+  'platinum': $platinum,
+  'sage-green': $sage-green,
+  'silver': $silver,
+  'slate-gray': $slate-gray,
+  'smoke': $smoke,
+  'steel-gray': $steel-gray,
+);
+
+// Greens
+// https://htmlcolorcodes.com/colors/shades-of-green/
+$aqua: #00FFFF;
+$aquamarine: #7FFFD4;
+$army-green: #454B1B;
+$blue-green: #088F8F;
+$bright-green: #AAFF00;
+$cadet-blue: #5F9EA0;
+$cadmium-green: #097969;
+$celadon: #AFE1AF;
+$chartreuse: #DFFF00;
+$citrine: '	#E4D00A';
+$cyan: #00FFFF;
+$dark-green: #023020;
+$electric-blue: #7DF9FF;
+$emerald-green: #50C878;
+$eucalyptus: #5F8575;
+$fern-green: #4F7942;
+$forest-green: #228B22;
+$grass-green: #7CFC00;
+$green: #008000;
+$hunter-green: #355E3B;
+$jade: #00A36C;
+$jungle-green: #2AAA8A;
+$kelly-green: #4CBB17;
+$light-green: #90EE90;
+$lime-green: #32CD32;
+$lincoln-green: #478778;
+$malachite: #0BDA51;
+$mint-green: #98FB98;
+$moss-green: #8A9A5B;
+$neon-green: #0FFF50;
+$nyanza: #ECFFDC;
+$olive-green: #808000;
+$pastel-green: #C1E1C1;
+$pear: #C9CC3F;
+$peridot: #B4C424;
+$pistachio: #93C572;
+$robbin-egg-blue: #96DED1;
+$sage-green: #8A9A5B;
+$sea-green: #2E8B57;
+$sea-foam-green: #9FE2BF;
+$shamrock-green: #009E60;
+$spring-green: #00FF7F;
+$teal: #008080;
+$turquoise: #40E0D0;
+$vegas-gold: #C4B454;
+$verdigris: #40B5AD;
+$viridian: #40826D;
+
+$greens: (
+  'aqua': $aqua,
+  'aquamarine': $aquamarine,
+  'army-green': $army-green,
+  'blue-green': $blue-green,
+  'bright-green': $bright-green,
+  'cadet-blue': $cadet-blue,
+  'cadmium-green': $cadmium-green,
+  'celadon': $celadon,
+  'chartreuse': $chartreuse,
+  'citrine': $citrine,
+  'cyan': $cyan,
+  'dark-green': $dark-green,
+  'electric-blue': $electric-blue,
+  'emerald-green': $emerald-green,
+  'eucalyptus': $eucalyptus,
+  'fern-green': $fern-green,
+  'forest-green': $forest-green,
+  'grass-green': $grass-green,
+  'green': $green,
+  'hunter-green': $hunter-green,
+  'jade': $jade,
+  'jungle-green': $jungle-green,
+  'kelly-green': $kelly-green,
+  'light-green': $light-green,
+  'lime-green': $lime-green,
+  'lincoln-green': $lincoln-green,
+  'malachite': $malachite,
+  'mint-green': $mint-green,
+  'moss-green': $moss-green,
+  'neon-green': $neon-green,
+  'nyanza': $nyanza,
+  'olive-green': $olive-green,
+  'pastel-green': $pastel-green,
+  'pear': $pear,
+  'peridot': $peridot,
+  'pistachio': $pistachio,
+  'robbin-egg-blue': $robbin-egg-blue,
+  'sage-green': $sage-green,
+  'sea-green': $sea-green,
+  'sea-foam-green': $sea-foam-green,
+  'shamrock-green': $shamrock-green,
+  'spring-green': $spring-green,
+  'teal': $teal,
+  'turquoise': $turquoise,
+  'vegas-gold': $vegas-gold,
+  'verdigris': $verdigris,
+  'viridian': $viridian,
+);
+
+// Oranges
+// https://htmlcolorcodes.com/colors/shades-of-orange/
+$amber: #FFBF00;
+$apricot: #FBCEB1;
+$bisque: #F2D2BD;
+$bright-orange: #FFAC1C;
+$bronze: #CD7F32;
+$buff: #DAA06D;
+$burnt-orange: #CC5500;
+$burnt-sienna: #E97451;
+$butterscotch: #E3963E;
+$cadmium-orange: #F28C28;
+$cinnamon: #D27D2D;
+$copper: #B87333;
+$coral: #FF7F50;
+$coral-pink: #F88379;
+$dark-orange: #8B4000;
+$desert: #FAD5A5;
+$gamboge: #E49B0F;
+$golden-yellow: #FFC000;
+$goldenrod: #DAA520;
+$light-orange: #FFD580;
+$mahogany: #C04000;
+$mango: #F4BB44;
+$navajo-white: #FFDEAD;
+$neon-orange: #FF5F1F;
+$ochre: #CC7722;
+$orange: #FFA500;
+$pastel-orange: #FAC898;
+$peach: #FFE5B4;
+$persimmon: #EC5800;
+$pink-orange: #F89880;
+$poppy: #E35335;
+$pumpkin-orange: #FF7518;
+$red-orange: #FF4433;
+$safety-orange: #FF5F15;
+$salmon: #FA8072;
+$seashell: #FFF5EE;
+$sienna: #A0522D;
+$sunset-orange: #FA5F55;
+$tangerine: #F08000;
+$terra-cotta: #E3735E;
+$yellow-orange: #FFAA33;
+
+$oranges: (
+  'amber': $amber,
+  'apricot': $apricot,
+  'bisque': $bisque,
+  'bright-orange': $bright-orange,
+  'bronze': $bronze,
+  'buff': $buff,
+  'burnt-orange': $burnt-orange,
+  'burnt-sienna': $burnt-sienna,
+  'butterscotch': $butterscotch,
+  'cadmium-orange': $cadmium-orange,
+  'cinnamon': $cinnamon,
+  'copper': $copper,
+  'coral': $coral,
+  'coral-pink': $coral-pink,
+  'dark-orange': $dark-orange,
+  'desert': $desert,
+  'gamboge': $gamboge,
+  'golden-yellow': $golden-yellow,
+  'goldenrod': $goldenrod,
+  'light-orange': $light-orange,
+  'mahogany': $mahogany,
+  'mango': $mango,
+  'navajo-white': $navajo-white,
+  'neon-orange': $neon-orange,
+  'ochre': $ochre,
+  'orange': $orange,
+  'pastel-orange': $pastel-orange,
+  'peach': $peach,
+  'persimmon': $persimmon,
+  'pink-orange': $pink-orange,
+  'poppy': $poppy,
+  'pumpkin-orange': $pumpkin-orange,
+  'red-orange': $red-orange,
+  'safety-orange': $safety-orange,
+  'salmon': $salmon,
+  'seashell': $seashell,
+  'sienna': $sienna,
+  'sunset-orange': $sunset-orange,
+  'tangerine': $tangerine,
+  'terra-cotta': $terra-cotta,
+  'yellow-orange': $yellow-orange,
+);
+
+// Pinks
+// https://htmlcolorcodes.com/colors/shades-of-pink/
+$amaranth: #9F2B68;
+$bisque: #F2D2BD;
+$cerise: #DE3163;
+$claret: #811331;
+$coral: #FF7F50;
+$coral-pink: #F88379;
+$crimson: #DC143C;
+$dark-pink: #AA336A;
+$dusty-rose: #C9A9A6;
+$fuchsia: #FF00FF;
+$hot-pink: #FF69B4;
+$light-pink: #FFB6C1;
+$magenta: #FF00FF;
+$millennial-pink: #F3CFC6;
+$mulberry: #770737;
+$neon-pink: #FF10F0;
+$orchid: #DA70D6;
+$pastel-pink: #F8C8DC;
+$pastel-red: #FAA0A0;
+$pink: #FFC0CB;
+$pink-orange: #F89880;
+$plum: #673147;
+$puce: #A95C68;
+$purple: #800080;
+$raspberry: #E30B5C;
+$red-purple: #953553;
+$rose: #F33A6A;
+$rose-gold: #E0BFB8;
+$rose-red: #C21E56;
+$ruby-red: #E0115F;
+$salmon: #FA8072;
+$seashell: #FFF5EE;
+$thistle: #D8BFD8;
+$watermelon-pink: #E37383;
+
+$pinks: (
+  'amaranth': $amaranth,
+  'bisque': $bisque,
+  'cerise': $cerise,
+  'claret': $claret,
+  'coral': $coral,
+  'coral-pink': $coral-pink,
+  'crimson': $crimson,
+  'dark-pink': $dark-pink,
+  'dusty-rose': $dusty-rose,
+  'fuchsia': $fuchsia,
+  'hot-pink': $hot-pink,
+  'light-pink': $light-pink,
+  'magenta': $magenta,
+  'millennial-pink': $millennial-pink,
+  'mulberry': $mulberry,
+  'neon-pink': $neon-pink,
+  'orchid': $orchid,
+  'pastel-pink': $pastel-pink,
+  'pastel-red': $pastel-red,
+  'pink': $pink,
+  'pink-orange': $pink-orange,
+  'plum': $plum,
+  'puce': $puce,
+  'purple': $purple,
+  'raspberry': $raspberry,
+  'red-purple': $red-purple,
+  'rose': $rose,
+  'rose-gold': $rose-gold,
+  'rose-red': $rose-red,
+  'ruby-red': $ruby-red,
+  'salmon': $salmon,
+  'seashell': $seashell,
+  'thistle': $thistle,
+  'watermelon-pink': $watermelon-pink,
+);
+
+// Purples
+// https://htmlcolorcodes.com/colors/shades-of-purple/
+$amaranth: #9F2B68;
+$bright-purple: #BF40BF;
+$burgundy: #800020;
+$byzantium: #702963;
+$dark-pink: #AA336A;
+$dark-purple: #301934;
+$eggplant: #483248;
+$iris: #5D3FD3;
+$lavender: #E6E6FA;
+$light-purple: #CBC3E3;
+$light-violet: #CF9FFF;
+$lilac: #AA98A9;
+$mauve: #E0B0FF;
+$mauve-taupe: #915F6D;
+$mulberry: #770737;
+$orchid: #DA70D6;
+$pastel-purple: #C3B1E1;
+$periwinkle: #CCCCFF;
+$plum: #673147;
+$puce: #A95C68;
+$purple: #800080;
+$quartz: #51414F;
+$red-purple: #953553;
+$thistle: #D8BFD8;
+$tyrian-purple: #630330;
+$violet: #7F00FF;
+$wine: #722F37;
+$wisteria: #BDB5D5;
+
+$purples: (
+  'amaranth': $amaranth,
+  'bright-purple': $bright-purple,
+  'burgundy': $burgundy,
+  'byzantium': $byzantium,
+  'dark-pink': $dark-pink,
+  'dark-purple': $dark-purple,
+  'eggplant': $eggplant,
+  'iris': $iris,
+  'lavender': $lavender,
+  'light-purple': $light-purple,
+  'light-violet': $light-violet,
+  'lilac': $lilac,
+  'mauve': $mauve,
+  'mauve-taupe': $mauve-taupe,
+  'mulberry': $mulberry,
+  'orchid': $orchid,
+  'pastel-purple': $pastel-purple,
+  'periwinkle': $periwinkle,
+  'plum': $plum,
+  'puce': $puce,
+  'purple': $purple,
+  'quartz': $quartz,
+  'red-purple': $red-purple,
+  'thistle': $thistle,
+  'tyrian-purple': $tyrian-purple,
+  'violet': $violet,
+  'wine': $wine,
+  'wisteria': $wisteria,
+);
+
+// Reds
+// https://htmlcolorcodes.com/colors/shades-of-red/
+$blood-red: #880808;
+$brick-red: #AA4A44;
+$bright-red: #EE4B2B;
+$brown: #A52A2A;
+$burgundy: #800020;
+$burnt-umber: #6E260E;
+$burnt-orange: #CC5500;
+$burnt-sienna: #E97451;
+$byzantium: #702963;
+$cadmium-red: #D22B2B;
+$cardinal-red: #C41E3A;
+$carmine: #D70040;
+$cerise: #DE3163;
+$cherry: #D2042D;
+$chestnut: #954535;
+$claret: #811331;
+$coral-pink: #F88379;
+$cordovan: #814141;
+$crimson: #DC143C;
+$dark-red: #8B0000;
+$falu-red: #7B1818;
+$garnet: #9A2A2A;
+$mahogany: #C04000;
+$maroon: #800000;
+$marsala: #986868;
+$mulberry: #770737;
+$neon-red: #FF3131;
+$oxblood: #4A0404;
+$pastel-red: #FAA0A0;
+$persimmon: #EC5800;
+$poppy: #E35335;
+$puce: #A95C68;
+$raspberry: #E30B5C;
+$red: #FF0000;
+$red-brown: #A52A2A;
+$red-ochre: #913831;
+$red-orange: #FF4433;
+$red-purple: #953553;
+$rose-red: #C21E56;
+$ruby-red: #E0115F;
+$russet: #80461B;
+$salmon: #FA8072;
+$scarlet: #FF2400;
+$sunset-orange: #FA5F55;
+$terra-cotta: #E3735E;
+$tuscan-red: #7C3030;
+$tyrian-purple: #630330;
+$venetian-red: #A42A04;
+$vermilion: #E34234;
+$wine: #722F37;
+
+$reds: (
+  'blood-red': $blood-red,
+  'brick-red': $brick-red,
+  'bright-red': $bright-red,
+  'brown': $brown,
+  'burgundy': $burgundy,
+  'burnt-umber': $burnt-umber,
+  'burnt-orange': $burnt-orange,
+  'burnt-sienna': $burnt-sienna,
+  'byzantium': $byzantium,
+  'cadmium-red': $cadmium-red,
+  'cardinal-red': $cardinal-red,
+  'carmine': $carmine,
+  'cerise': $cerise,
+  'cherry': $cherry,
+  'chestnut': $chestnut,
+  'claret': $claret,
+  'coral-pink': $coral-pink,
+  'cordovan': $cordovan,
+  'crimson': $crimson,
+  'dark-red': $dark-red,
+  'falu-red': $falu-red,
+  'garnet': $garnet,
+  'mahogany': $mahogany,
+  'maroon': $maroon,
+  'marsala': $marsala,
+  'mulberry': $mulberry,
+  'neon-red': $neon-red,
+  'oxblood': $oxblood,
+  'pastel-red': $pastel-red,
+  'persimmon': $persimmon,
+  'poppy': $poppy,
+  'puce': $puce,
+  'raspberry': $raspberry,
+  'red': $red,
+  'red-brown': $red-brown,
+  'red-ochre': $red-ochre,
+  'red-orange': $red-orange,
+  'red-purple': $red-purple,
+  'rose-red': $rose-red,
+  'ruby-red': $ruby-red,
+  'russet': $russet,
+  'salmon': $salmon,
+  'scarlet': $scarlet,
+  'sunset-orange': $sunset-orange,
+  'terra-cotta': $terra-cotta,
+  'tuscan-red': $tuscan-red,
+  'tyrian-purple': $tyrian-purple,
+  'venetian-red': $venetian-red,
+  'vermilion': $vermilion,
+  'wine': $wine,
+);
+
+$colors: (
+  'blacks': $blacks,
+  'blues': $blues,
+  'browns': $browns,
+  'grays': $grays,
+  'greens': $greens,
+  'oranges': $oranges,
+  'pinks': $pinks,
+  'purples': $purples,
+  'reds': $reds,
+)
