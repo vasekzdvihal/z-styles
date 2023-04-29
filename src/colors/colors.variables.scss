@@ -664,6 +664,134 @@ $reds: (
   'wine': $wine,
 );
 
+// Whites
+// https://htmlcolorcodes.com/colors/shades-of-white/
+$alabaster: #EDEADE;
+$beige: #F5F5DC;
+$bone-white: #F9F6EE;
+$cornsilk: #FFF8DC;
+$cream: #FFFDD0;
+$eggshell: #F0EAD6;
+$ivory: #FFFFF0;
+$linen: #E9DCC9;
+$navajo-white: #FFDEAD;
+$off-white: #FAF9F6;
+$parchment: #FCF5E5;
+$peach: #FFE5B4;
+$pearl: #E2DFD2;
+$seashell: #FFF5EE;
+$vanilla: #F3E5AB;
+$white: #FFFFFF;
+
+$whites: (
+  'alabaster': $alabaster,
+  'beige': $beige,
+  'bone-white': $bone-white,
+  'cornsilk': $cornsilk,
+  'cream': $cream,
+  'eggshell': $eggshell,
+  'ivory': $ivory,
+  'linen': $linen,
+  'navajo-white': $navajo-white,
+  'off-white': $off-white,
+  'parchment': $parchment,
+  'peach': $peach,
+  'pearl': $pearl,
+  'seashell': $seashell,
+  'vanilla': $vanilla,
+  'white': $white,
+);
+
+// Yellows
+// https://htmlcolorcodes.com/colors/yellow/
+$almond: #EADDCA;
+$amber: #FFBF00;
+$apricot: #FBCEB1;
+$beige: #F5F5DC;
+$brass: #E1C16E;
+$bright-yellow: #FFEA00;
+$cadmium-yellow: #FDDA0D;
+$canary-yellow: #FFFF8F;
+$chartreuse: #DFFF00;
+$citrine: #E4D00A;
+$cornsilk: #FFF8DC;
+$cream: #FFFDD0;
+$dark-yellow: #8B8000;
+$desert: #FAD5A5;
+$ecru: #C2B280;
+$flax: #EEDC82;
+$gamboge: #E49B0F;
+$gold: #FFD700;
+$golden-yellow: #FFC000;
+$goldenrod: #DAA520;
+$icterine: #FCF55F;
+$ivory: #FFFFF0;
+$jasmine: #F8DE7E;
+$khaki: #F0E68C;
+$lemon-yellow: #FAFA33;
+$maize: #FBEC5D;
+$mango: #F4BB44;
+$mustard-yellow: #FFDB58;
+$naples-yellow: #FADA5E;
+$navajo-white: #FFDEAD;
+$nyanza: #ECFFDC;
+$pastel-yellow: #FFFAA0;
+$peach: #FFE5B4;
+$pear: #C9CC3F;
+$peridot: #B4C424;
+$pistachio: #93C572;
+$saffron: #F4C430;
+$vanilla: #F3E5AB;
+$vegas-gold: #C4B454;
+$wheat: #F5DEB3;
+$yellow: #FFFF00;
+$yellow-orange: #FFAA33;
+
+$yellows: (
+  'almond': $almond,
+  'amber': $amber,
+  'apricot': $apricot,
+  'beige': $beige,
+  'brass': $brass,
+  'bright-yellow': $bright-yellow,
+  'cadmium-yellow': $cadmium-yellow,
+  'canary-yellow': $canary-yellow,
+  'chartreuse': $chartreuse,
+  'citrine': $citrine,
+  'cornsilk': $cornsilk,
+  'cream': $cream,
+  'dark-yellow': $dark-yellow,
+  'desert': $desert,
+  'ecru': $ecru,
+  'flax': $flax,
+  'gamboge': $gamboge,
+  'gold': $gold,
+  'golden-yellow': $golden-yellow,
+  'goldenrod': $goldenrod,
+  'icterine': $icterine,
+  'ivory': $ivory,
+  'jasmine': $jasmine,
+  'khaki': $khaki,
+  'lemon-yellow': $lemon-yellow,
+  'maize': $maize,
+  'mango': $mango,
+  'mustard-yellow': $mustard-yellow,
+  'naples-yellow': $naples-yellow,
+  'navajo-white': $navajo-white,
+  'nyanza': $nyanza,
+  'pastel-yellow': $pastel-yellow,
+  'peach': $peach,
+  'pear': $pear,
+  'peridot': $peridot,
+  'pistachio': $pistachio,
+  'saffron': $saffron,
+  'vanilla': $vanilla,
+  'vegas-gold': $vegas-gold,
+  'wheat': $wheat,
+  'yellow': $yellow,
+  'yellow-orange': $yellow-orange,
+);
+
 $colors: (
   'blacks': $blacks,
   'blues': $blues,
@@ -674,4 +802,5 @@ $colors: (
   'pinks': $pinks,
   'purples': $purples,
   'reds': $reds,
+  'whites': $whites,
 )
