@@ -1,0 +1,53 @@
+@use 'spacing.arrays' as spaceArrays;
+
+@each $space-group-name, $spaces-group-values in spaceArrays.$spaces {
+  @each $space, $value in $spaces-group-values {
+    .z-pa-#{$space} {
+      padding: $value;
+    }
+    .z-px-#{$space} {
+      padding-left: $value;
+      padding-right: $value;
+    }
+    .z-py-#{$space} {
+      padding-top: $value;
+      padding-bottom: $value;
+    }
+    .z-pl-#{$space} {
+      padding-left: $value;
+    }
+    .z-pr-#{$space} {
+      padding-right: $value;
+    }
+    .z-pt-#{$space} {
+      padding-top: $value;
+    }
+    .z-pb-#{$space} {
+      padding-bottom: $value;
+    }
+
+    .z-ma-#{$space} {
+      margin: $value;
+    }
+    .z-mx-#{$space} {
+      margin-left: $value;
+      margin-right: $value;
+    }
+    .z-my-#{$space} {
+      margin-top: $value;
+      margin-bottom: $value;
+    }
+    .z-ml-#{$space} {
+      margin-left: $value;
+    }
+    .z-mr-#{$space} {
+      margin-right: $value;
+    }
+    .z-mt-#{$space} {
+      margin-top: $value;
+    }
+    .z-mb-#{$space} {
+      margin-bottom: $value;
+    }
+  }
+}
