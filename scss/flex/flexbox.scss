@@ -1,5 +1,6 @@
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .row {
   display: flex;
@@ -8,54 +9,119 @@
 .column {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.full-width {
+  width: 100% !important;
+}
+.full-height {
+  height: 100% !important;
+}
+.fit {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 // COL System
-.col-1 {
-  flex: 0 0 8.333333%;
-  max-width: 8.333333%;
+.row {
+  .col-1 {
+    height: auto;
+    width: 8.333333%;
+  }
+  .col-2 {
+    height: auto;
+    width: 16.666667%;
+  }
+  .col-3 {
+    height: auto;
+    width: 25%;
+  }
+  .col-4 {
+    height: auto;
+    width: 33.333333%;
+  }
+  .col-5 {
+    height: auto;
+    width: 41.666667%;
+  }
+  .col-6 {
+    height: auto;
+    width: 50%;
+  }
+  .col-7 {
+    height: auto;
+    width: 58.333333%;
+  }
+  .col-8 {
+    height: auto;
+    width: 66.666667%;
+  }
+  .col-9 {
+    height: auto;
+    width: 75%;
+  }
+  .col-10 {
+    height: auto;
+    width: 83.333333%;
+  }
+  .col-11 {
+    height: auto;
+    width: 91.666667%;
+  }
+  .col-12 {
+    height: auto;
+    width: 100%;
+  }
 }
-.col-2 {
-  flex: 0 0 16.666667%;
-  max-width: 16.666667%;
-}
-.col-3 {
-  flex: 0 0 25%;
-  max-width: 25%;
-}
-.col-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-.col-5 {
-  flex: 0 0 41.666667%;
-  max-width: 41.666667%;
-}
-.col-6 {
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-.col-7 {
-  flex: 0 0 58.333333%;
-  max-width: 58.333333%;
-}
-.col-8 {
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-}
-.col-9 {
-  flex: 0 0 75%;
-  max-width: 75%;
-}
-.col-10 {
-  flex: 0 0 83.333333%;
-  max-width: 83.333333%;
-}
-.col-11 {
-  flex: 0 0 91.666667%;
-  max-width: 91.666667%;
-}
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
+
+.column {
+  .col-1 {
+    width: auto;
+    height: 8.333333%;
+  }
+  .col-2 {
+    width: auto;
+    height: 16.666667%;
+  }
+  .col-3 {
+    width: auto;
+    height: 25%;
+  }
+  .col-4 {
+    width: auto;
+    height: 33.333333%;
+  }
+  .col-5 {
+    width: auto;
+    height: 41.666667%;
+  }
+  .col-6 {
+    width: auto;
+    height: 50%;
+  }
+  .col-7 {
+    width: auto;
+    height: 58.333333%;
+  }
+  .col-8 {
+    width: auto;
+    height: 66.666667%;
+  }
+  .col-9 {
+    width: auto;
+    height: 75%;
+  }
+  .col-10 {
+    width: auto;
+    height: 83.333333%;
+  }
+  .col-11 {
+    width: auto;
+    height: 91.666667%;
+  }
+  .col-12 {
+    width: auto;
+    height: 100%;
+  }
 }
