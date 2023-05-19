@@ -1,3 +1,5 @@
+@use 'flexbox.arrays' as flexArrays;
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -22,114 +24,45 @@
   @extend .full-height;
 }
 
-// COL System
-.row {
-  .col-1 {
-    height: auto;
-    width: 8.333333%;
-  }
-  .col-2 {
-    height: auto;
-    width: 16.666667%;
-  }
-  .col-3 {
-    height: auto;
-    width: 25%;
-  }
-  .col-4 {
-    height: auto;
-    width: 33.333333%;
-  }
-  .col-5 {
-    height: auto;
-    width: 41.666667%;
-  }
-  .col-6 {
-    height: auto;
-    width: 50%;
-  }
-  .col-7 {
-    height: auto;
-    width: 58.333333%;
-  }
-  .col-8 {
-    height: auto;
-    width: 66.666667%;
-  }
-  .col-9 {
-    height: auto;
-    width: 75%;
-  }
-  .col-10 {
-    height: auto;
-    width: 83.333333%;
-  }
-  .col-11 {
-    height: auto;
-    width: 91.666667%;
-  }
-  .col-12 {
-    height: auto;
-    width: 100%;
-  }
-}
-
-.column {
-  .col-1 {
-    width: auto;
-    height: 8.333333%;
-  }
-  .col-2 {
-    width: auto;
-    height: 16.666667%;
-  }
-  .col-3 {
-    width: auto;
-    height: 25%;
-  }
-  .col-4 {
-    width: auto;
-    height: 33.333333%;
-  }
-  .col-5 {
-    width: auto;
-    height: 41.666667%;
-  }
-  .col-6 {
-    width: auto;
-    height: 50%;
-  }
-  .col-7 {
-    width: auto;
-    height: 58.333333%;
-  }
-  .col-8 {
-    width: auto;
-    height: 66.666667%;
-  }
-  .col-9 {
-    width: auto;
-    height: 75%;
-  }
-  .col-10 {
-    width: auto;
-    height: 83.333333%;
-  }
-  .col-11 {
-    width: auto;
-    height: 91.666667%;
-  }
-  .col-12 {
-    width: auto;
-    height: 100%;
-  }
-}
 .col {
-  flex: 10000 1 0%;
+  flex: 10000 1 0;
 }
 .col-auto {
   flex: 0 0 auto;
 }
+
+@each $col, $value in flexArrays.$cols {
+  .row {
+    .col-#{$col} {
+      height: auto;
+      width: $value;
+    }
+  }
+  .column {
+    height: $value;
+    width: auto;
+  }
+}
+
+@each $breakpoint, $br-value in flexArrays.$breakpoints {
+  @media (min-width: $br-value) {
+    @each $col, $value in flexArrays.$cols {
+      .row {
+        .col-#{$col} {
+          height: auto;
+          width: $value;
+        }
+      }
+      .column {
+        .col-#{$col} {
+          height: $value;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
 .justify-start {
   justify-content: flex-start;
 }
@@ -145,6 +78,7 @@
 .justify-around {
   justify-content: space-around;
 }
+
 .items-center {
   align-items: center;
 }
@@ -154,3 +88,4 @@
 .items-end {
   align-items: flex-end;
 }
+
