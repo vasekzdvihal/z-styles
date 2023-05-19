@@ -1,53 +1,186 @@
 @use 'spacing.arrays' as spaceArrays;
+@use '../flex/flexbox.arrays' as flexArrays;
 
 @each $space-group-name, $spaces-group-values in spaceArrays.$spaces {
   @each $space, $value in $spaces-group-values {
-    .z-pa-#{$space} {
+    // Paddings
+    .pa-#{$space} {
       padding: $value;
     }
-    .z-px-#{$space} {
+    .px-#{$space} {
       padding-left: $value;
       padding-right: $value;
     }
-    .z-py-#{$space} {
+    .py-#{$space} {
       padding-top: $value;
       padding-bottom: $value;
     }
-    .z-pl-#{$space} {
+    .pl-#{$space} {
       padding-left: $value;
     }
-    .z-pr-#{$space} {
+    .pr-#{$space} {
       padding-right: $value;
     }
-    .z-pt-#{$space} {
+    .pt-#{$space} {
       padding-top: $value;
     }
-    .z-pb-#{$space} {
+    .pb-#{$space} {
       padding-bottom: $value;
     }
 
-    .z-ma-#{$space} {
+    // Margins
+    .ma-#{$space} {
       margin: $value;
     }
-    .z-mx-#{$space} {
+    .mx-#{$space} {
       margin-left: $value;
       margin-right: $value;
     }
-    .z-my-#{$space} {
+    .my-#{$space} {
       margin-top: $value;
       margin-bottom: $value;
     }
-    .z-ml-#{$space} {
+    .ml-#{$space} {
       margin-left: $value;
     }
-    .z-mr-#{$space} {
+    .mr-#{$space} {
       margin-right: $value;
     }
-    .z-mt-#{$space} {
+    .mt-#{$space} {
       margin-top: $value;
     }
-    .z-mb-#{$space} {
+    .mb-#{$space} {
       margin-bottom: $value;
+    }
+
+    // Gutters
+    .gutter-#{$space} {
+      display: flex;
+      column-gap: $value;
+      row-gap: $value;
+    }
+    .gutter-x-#{$space} {
+      display: flex;
+      column-gap: $value;
+    }
+    .gutter-y-#{$space} {
+      display: flex;
+      row-gap: $value;
+    }
+
+    .col-gutter-x-#{$space} {
+      margin-left: -$value;
+      > * {
+        padding-left: $value;
+      }
+    }
+    .col-gutter-y-#{$space} {
+      margin-top: -$value;
+      > * {
+        margin-top: $value;
+      }
+    }
+    .col-gutter-#{$space} {
+      margin-left: -$value;
+      margin-top: -$value;
+      > * {
+        padding-left: $value;
+        margin-top: $value;
+      }
+    }
+  }
+}
+
+@each $breakpoint, $br-value in flexArrays.$breakpoints {
+  @media (min-width: $br-value) {
+    @each $space-group-name, $spaces-group-values in spaceArrays.$spaces {
+      @each $space, $value in $spaces-group-values {
+        // Paddings
+        .pa-#{$space} {
+          padding: $value;
+        }
+        .px-#{$space} {
+          padding-left: $value;
+          padding-right: $value;
+        }
+        .py-#{$space} {
+          padding-top: $value;
+          padding-bottom: $value;
+        }
+        .pl-#{$space} {
+          padding-left: $value;
+        }
+        .pr-#{$space} {
+          padding-right: $value;
+        }
+        .pt-#{$space} {
+          padding-top: $value;
+        }
+        .pb-#{$space} {
+          padding-bottom: $value;
+        }
+
+        // Margins
+        .ma-#{$space} {
+          margin: $value;
+        }
+        .mx-#{$space} {
+          margin-left: $value;
+          margin-right: $value;
+        }
+        .my-#{$space} {
+          margin-top: $value;
+          margin-bottom: $value;
+        }
+        .ml-#{$space} {
+          margin-left: $value;
+        }
+        .mr-#{$space} {
+          margin-right: $value;
+        }
+        .mt-#{$space} {
+          margin-top: $value;
+        }
+        .mb-#{$space} {
+          margin-bottom: $value;
+        }
+
+        // Gutters
+        .gutter-#{$space} {
+          display: flex;
+          column-gap: $value;
+          row-gap: $value;
+        }
+        .gutter-x-#{$space} {
+          display: flex;
+          column-gap: $value;
+        }
+        .gutter-y-#{$space} {
+          display: flex;
+          row-gap: $value;
+        }
+
+        .col-gutter-x-#{$space} {
+          margin-left: -$value;
+          > * {
+            padding-left: $value;
+          }
+        }
+        .col-gutter-y-#{$space} {
+          margin-top: -$value;
+          > * {
+            margin-top: $value;
+          }
+        }
+        .col-gutter-#{$space} {
+          margin-left: -$value;
+          margin-top: -$value;
+          > * {
+            padding-left: $value;
+            margin-top: $value;
+          }
+        }
+      }
     }
   }
 }

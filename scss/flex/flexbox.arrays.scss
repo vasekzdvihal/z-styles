@@ -1,0 +1,23 @@
+@use 'flexbox.variables' as flexbox;
+
+$breakpoints: (
+  'xs': flexbox.$breakpoint-xs,
+  'sm': flexbox.$breakpoint-sm,
+  'md': flexbox.$breakpoint-md,
+  'lg': flexbox.$breakpoint-lg,
+);
+
+$cols: (
+  '1': flexbox.$col-1,
+  '2': flexbox.$col-2,
+  '3': flexbox.$col-3,
+  '4': flexbox.$col-4,
+  '5': flexbox.$col-5,
+  '6': flexbox.$col-6,
+  '7': flexbox.$col-7,
+  '8': flexbox.$col-8,
+  '9': flexbox.$col-9,
+  '10': flexbox.$col-10,
+  '11': flexbox.$col-11,
+  '12': flexbox.$col-12,
+)

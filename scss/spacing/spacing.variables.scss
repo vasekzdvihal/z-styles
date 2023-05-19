@@ -73,11 +73,11 @@ $space-115: 115px !default;
 $space-120: 120px !default;
 
 $base-spacing: $space-8 !default;
-$space-xxs: $base-spacing / 8 !default;
-$space-xs: $base-spacing / 4 !default;
-$space-sm: $base-spacing / 2 !default;
+$space-xxs: calc($base-spacing / 8) !default;
+$space-xs: calc($base-spacing / 4) !default;
+$space-sm: calc($base-spacing / 2) !default;
 $space-md: $base-spacing !default;
-$space-lg: $base-spacing * 2 !default;
-$space-xl: $base-spacing * 4 !default;
-$space-xxl: $base-spacing * 8 !default;
+$space-lg: calc($base-spacing * 2) !default;
+$space-xl: calc($base-spacing * 4) !default;
+$space-xxl: calc($base-spacing * 8) !default;
 
